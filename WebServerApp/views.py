@@ -78,7 +78,7 @@ def relay_control_view(request, action):
 
 def get_relay_status(request):
     """
-    This  view returns the current relay status in JSON format.
+    This view returns the current relay status in JSON format.
     It responds with either "true" or "false" depending on the state.
     """
     global relay_state
